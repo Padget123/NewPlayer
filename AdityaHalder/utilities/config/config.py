@@ -21,7 +21,7 @@ if os.path.exists("Internal"):
 API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://AsadAli:AsadAli@cluster0.3ejv7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "12000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001631416406"))
